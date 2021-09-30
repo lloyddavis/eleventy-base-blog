@@ -23,16 +23,7 @@
     </header>
 
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
-
-      <!-- Delete this message -->
-      <div class="warning">
-        <ul>
-          <li>Message Of The Day</li>
-          <li>"We're All Screwed!"</li>
-        </ul>
-      </div>
-      <!-- Stop deleting -->
-
+    
       {{ content | safe }}
     </main>
 
