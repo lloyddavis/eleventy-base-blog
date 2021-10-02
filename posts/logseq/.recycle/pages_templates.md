@@ -1,0 +1,2 @@
+template:: journals
+title::
